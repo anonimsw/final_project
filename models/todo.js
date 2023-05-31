@@ -16,6 +16,9 @@ const todoSchema = new mongoose.Schema(
             type: String,
             required: true,
             trim: true,
+        },
+        phone_number: {
+            type: Number,
         }
     },
 
